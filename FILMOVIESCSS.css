@@ -40,10 +40,6 @@ body {
     border-radius: 6px;
 }
 
-.nav-menu a:hover {
-    background: #dfe5ff;
-}
-
 .genre-nav {
     text-align: center;
     margin: 30px 0;
@@ -59,11 +55,6 @@ body {
     font-weight: bold;
     border-radius: 8px;
     border: 2px solid #4b5fd7;
-}
-
-.genre-nav a:hover {
-    background-color: #4b5fd7;
-    color: white;
 }
 
 .content {
@@ -94,10 +85,6 @@ body {
     border-radius: 12px;
     border: 2px solid #c7cffc;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-}
-
-.movie-card:hover {
-    border-color: #4b5fd7;
 }
 
 .movie-card img {
@@ -140,11 +127,6 @@ body {
     border: 2px solid #4b5fd7;
 }
 
-.top-btn:hover {
-    background-color: #4b5fd7;
-    color: white;
-}
-
 footer {
     margin-top: 40px;
     text-align: center;
@@ -161,9 +143,4 @@ footer a {
     padding: 6px 12px;
     border-radius: 8px;
     display: inline-block;
-}
-
-footer a:hover {
-    background-color: #4b5fd7;
-    color: white;
 }
