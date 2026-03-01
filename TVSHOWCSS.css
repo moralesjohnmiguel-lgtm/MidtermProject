@@ -36,8 +36,12 @@ body {
     color: #23359F;
     font-weight: bold;
     font-size: 11pt;
-    padding: 6px 10px;
-    border-radius: 6px;
+    padding: 6px 10px; 
+    border-radius: 6px; 
+}
+
+.nav-menu a:hover {
+    background: #dfe5ff;
 }
 
 .genre-nav {
@@ -54,6 +58,12 @@ body {
     color: #4b5fd7;
     border: 2px solid #4b5fd7;
     border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.genre-nav a:hover {
+    background-color: #4b5fd7;
+    color: white;
 }
 
 header h1 {
@@ -62,6 +72,15 @@ header h1 {
     letter-spacing: 2px;
     text-align: center;
     margin-top: 30px;
+    transition: 0.3s;
+}
+
+header h1:hover {
+    color: white;
+    background-color: #4b5fd7;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 .genre-section {
@@ -86,6 +105,11 @@ header h1 {
     border-radius: 15px;
     border: 2px solid #c9ddff;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.show-card:hover {
+    border-color: #4b5fd7;
 }
 
 .show-card img {
@@ -133,6 +157,11 @@ header h1 {
     font-weight: bold;
 }
 
+.top-btn:hover {
+    background-color: #4b5fd7;
+    color: white;
+}
+
 footer {
     margin-top: 40px;
     text-align: center;
@@ -148,4 +177,10 @@ footer a {
     padding: 8px 16px;
     border-radius: 10px;
     display: inline-block;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background-color: #4b5fd7;
+    color: white;
 }
