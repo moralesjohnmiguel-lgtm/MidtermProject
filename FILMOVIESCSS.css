@@ -59,7 +59,6 @@ body {
     font-weight: bold;
     border-radius: 8px;
     border: 2px solid #4b5fd7;
-    transition: 0.3s ease;
 }
 
 .genre-nav a:hover {
@@ -95,12 +94,9 @@ body {
     border-radius: 12px;
     border: 2px solid #c7cffc;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-    transition: 0.3s ease;
 }
 
 .movie-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
     border-color: #4b5fd7;
 }
 
@@ -142,7 +138,6 @@ body {
     border-radius: 8px;
     font-weight: bold;
     border: 2px solid #4b5fd7;
-    transition: 0.3s ease;
 }
 
 .top-btn:hover {
@@ -166,7 +161,6 @@ footer a {
     padding: 6px 12px;
     border-radius: 8px;
     display: inline-block;
-    transition: 0.3s ease;
 }
 
 footer a:hover {
